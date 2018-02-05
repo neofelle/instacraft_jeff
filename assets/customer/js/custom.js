@@ -6,7 +6,7 @@ $(function () {
     });
 
     $(document).on("click", function (e) {
-        if ($(".opend-pop").length > 0 && !$(e.target).is(" .opend-pop *  , [data-attribute] , [data-attribute] *")) {
+        if ($(".opend-pop").length > 0 && !$(e.target).is(" .opend-pop *  , [data-attribute] , [data-attribute] *") || $(e.target).is('.icon-close')) {
 
             $(".opend-pop").fadeOut();
             $("body").removeClass("overlay");

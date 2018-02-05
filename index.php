@@ -1,5 +1,5 @@
 <?php
- session_start();
+  
 
 /**
  * CodeIgniter
@@ -55,7 +55,7 @@
  *
  * NOTE: If you change these, also change the error_reporting() code below
  */
-	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
+define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
 
 /*
  *---------------------------------------------------------------
@@ -67,10 +67,9 @@
  */
 switch (ENVIRONMENT)
 {
-	case 'development':	
+	case 'development':
+		ini_set('display_errors', 1);
 		error_reporting(E_ALL);
-                ini_set('display_errors', 'On');
-                error_reporting(0);
 	break;
 
 	case 'testing':

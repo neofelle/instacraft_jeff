@@ -27,7 +27,7 @@ $config['verify_peer'] = TRUE;
 | Your Amazon S3 access key.
 |
 */
-$config['access_key'] = 'AKIAIOR3O642D2G4QERA';
+$config['access_key'] = 'AKIAIENT7JVURRONTY4A';
 /*
 |--------------------------------------------------------------------------
 | Secret Key
@@ -36,7 +36,7 @@ $config['access_key'] = 'AKIAIOR3O642D2G4QERA';
 | Your Amazon S3 Secret Key.
 |
 */
-$config['secret_key'] = 'uLmNiDgHcjeLToYdaDPMeAr7AuPSpJAnj0jVaWqr';
+$config['secret_key'] = 'ZfHIHJqn30KH3lTLxbKZi4Z8e+8DGAZUCX7U0RU9';
 /*
 |--------------------------------------------------------------------------
 | Use Enviroment?

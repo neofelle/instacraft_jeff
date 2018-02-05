@@ -8,7 +8,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 define('ROUTIFIC_AUTH', 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1OWMyMjdhYjRlMzVhYmMxMTY1YWQ0ODMiLCJpYXQiOjE1MDU4OTYzNjN9.13eOgGsjo_JKKIXUhs-OZ3_hl4VpZtqk95cNERMusss');
-define('ADMIN_EMAIL', 'niraj@techaheadcorp.com');
 define('SUPPORT_EMAIL', 'support@techaheadcorp.com');
 
 
@@ -70,7 +69,7 @@ define('FOPEN_READ_WRITE_CREATE_STRICT', 'x+b');
 |
 */
 define('SHOW_DEBUG_BACKTRACE', TRUE);
-define('MENU', array('1'=>'Dashboard'));
+define('MENU', 'Dashboard');
 
 /*
 |--------------------------------------------------------------------------
